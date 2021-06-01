@@ -1,0 +1,5 @@
+C:\dev\software\Checksum\Checksum\bin\Release\net5.0\publish\Checksum.exe
+C:\dev\software\Checksum\Checksum\bin\Release\net5.0\publish\Checksum.dll
+C:\dev\software\Checksum\Checksum\bin\Release\net5.0\publish\Checksum.deps.json
+C:\dev\software\Checksum\Checksum\bin\Release\net5.0\publish\Checksum.runtimeconfig.json
+C:\dev\software\Checksum\Checksum\bin\Release\net5.0\publish\Checksum.pdb
