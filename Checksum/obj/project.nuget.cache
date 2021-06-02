@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "RGQo36pw1U/C1PsGGlIzr/frqQNuXhqTfuHKMrshOQoGKqu6tEt9vk0BZXOMg58oOEhkwfXzmhGRxGoDtru0/g==",
+  "dgSpecHash": "kK0O/ATr6Qm3XLPsNwK/VbyZNSXxEWOW+ztsZ/fYyK8xQGIZQMHwQBkwKAdkoJLfO9ES1ZyL6RW7P3LnOqBJbg==",
   "success": true,
   "projectFilePath": "C:\\dev\\software\\Checksum\\Checksum\\Checksum.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\malte\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\5.0.6\\microsoft.netcore.app.runtime.win-x64.5.0.6.nupkg.sha512",
+    "C:\\Users\\malte\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\5.0.6\\microsoft.windowsdesktop.app.runtime.win-x64.5.0.6.nupkg.sha512",
+    "C:\\Users\\malte\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\5.0.6\\microsoft.aspnetcore.app.runtime.win-x64.5.0.6.nupkg.sha512"
+  ],
   "logs": []
 }

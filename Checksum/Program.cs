@@ -8,20 +8,30 @@ namespace Checksum
     {
         static void Main(string[] args)
         {
-            string path;
             string checksum;
-            while (true) {
-                Console.WriteLine("Input the directory path");
-                var input = Console.ReadLine();
-                var exists = Directory.Exists(input);
+            string path;
+            bool interfa = false;
+            if (args.Length != 1)
+            {
+                interfa = true;
+                while (true)
+                {
+                    Console.WriteLine("Input the directory path");
+                    var input = Console.ReadLine();
+                    var exists = Directory.Exists(input);
 
-                if (exists) {
-                    path = input;
-                    break;
+                    if (exists)
+                    {
+                        path = input;
+                        break;
+                    }
+                    Console.WriteLine("Directory does not exist");
+                    Console.ReadLine();
+                    Console.Clear();
                 }
-                Console.WriteLine("Directory does not exist");
-                Console.ReadLine();
-                Console.Clear();
+            } else
+            {
+                path = args[0];
             }
             Console.Clear();
             if(path[path.Length-1] == '/' || path[path.Length-1] == '\\') {
@@ -82,7 +92,10 @@ namespace Checksum
 
 
             Console.Write("le Done");
-            Console.ReadLine();
+            if(interfa) {
+                Console.ReadLine();
+            }
+            
         }
     }
 }
